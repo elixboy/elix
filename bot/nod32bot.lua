@@ -143,7 +143,7 @@ local function is_plugin_disabled_on_chat(plugin_name, receiver)
       end
     end
   end
-  return false
+  return true
 end
 
 function match_plugin(plugin, plugin_name, msg)
